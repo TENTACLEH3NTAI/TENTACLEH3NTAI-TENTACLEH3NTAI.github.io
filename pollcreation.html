@@ -2,10 +2,10 @@
 <HTML>
 <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
 <TITLE>Choose4Me</TITLE>
-<body>
-<div class="container">
-    <button onClick="home()" class="btn" align="right"><i class="fa fa-home"></i></button>
-    <head>
+<head>
+    <div class="container">
+        <button class="btn"><i class="fa fa-bars"></i></button>
+        <button onClick="home()" class="btn"><i class="fa fa-home"></i></button>
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon"
@@ -15,17 +15,16 @@
                 <div id="pollintro" onClick="pollnameSelection()" class="borderedButton"> start poll</div>
             </div>
         </div>
-</div>
+    </div>
 
-<script>
-    function home() {
-        window.location.href = "index.html";
-    }
+    <script>
+        function home() {
+            window.location.href = "index.html";
+        }
 
-    function pollnameSelection() {
-        document.getElementById("pollintro").innerHTML = "this is still in work"
-    }
-</script>
+        function pollnameSelection() {
+            document.getElementById("pollintro").innerHTML = "this is still in work"
+        }
+    </script>
 </head>
-</body>
 </HTML>

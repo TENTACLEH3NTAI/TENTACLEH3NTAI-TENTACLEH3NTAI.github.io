@@ -40,6 +40,7 @@
 }
 
 .btn {
+    float: right;
     background-color: Black;
     border: none;
     color: white;
