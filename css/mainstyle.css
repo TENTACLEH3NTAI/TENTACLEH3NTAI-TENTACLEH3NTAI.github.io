@@ -1,0 +1,54 @@
+* {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: courier;
+    color: white;
+}
+
+.standardFont {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    height: 97.5vh;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.borderedButton {
+    box-sizing: border-box;
+    width: 800px;
+    height: 80px;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.borderedButton:hover {
+    background-color: #212121;
+}
+
+.btn {
+    background-color: Black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #212121;
+}

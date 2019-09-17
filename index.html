@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<HTML>
+<TITLE>Choose4Me</TITLE>
+<body>
+<div class="container">
+    <button onClick="home()" class="btn" align="left"><i class="fa fa-home"></i></button>
+    <div class="center">
+        <div class="standardFont">
+            <head>
+                <link rel="stylesheet"
+                      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+                <link rel="icon"
+                      href="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/symbol_questionmark.png">
+                <div id="text1" onClick="openPollCreator()" class="borderedButton">let strangers control your life</div>
+                <br>
+                <p><strong>or</strong></p><br>
+                <div id="text2" onClick="openPollList()" class="borderedButton">control a stranger's life</div>
+            </head>
+        </div>
+    </div>
+</div>
+<script>
+    function home() {
+        window.location.href = "Chose4Me.html";
+    }
+
+    function openPollCreator() {
+        window.location.href = "pollcreation.html";
+    }
+
+    function openPollList() {
+        window.location.href = "polllist.html";
+    }
+</script>
+</body>
+</HTML>
